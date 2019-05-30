@@ -22464,6 +22464,7 @@ MonoBehaviour:
   BigWalk: []
   monedas: 0
   coin: {fileID: 8300000, guid: 865756c8b7d54804baa4246bf7de9173, type: 3}
+  contador: {fileID: 1504157330}
 --- !u!212 &845853871
 SpriteRenderer:
   m_ObjectHideFlags: 0

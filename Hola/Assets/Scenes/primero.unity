@@ -31696,6 +31696,7 @@ MonoBehaviour:
   BigWalk: []
   monedas: 0
   coin: {fileID: 8300000, guid: 865756c8b7d54804baa4246bf7de9173, type: 3}
+  contador: {fileID: 1402054300}
 --- !u!61 &1265324208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35392,7 +35393,7 @@ GameObject:
   - component: {fileID: 1402054300}
   m_Layer: 5
   m_Name: monedas
-  m_TagString: Untagged
+  m_TagString: monedas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

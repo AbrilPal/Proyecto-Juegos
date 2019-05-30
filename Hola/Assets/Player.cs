@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
     private int CurrentSprite;
     public int monedas = 0;
     public AudioClip coin;
+    public Text contador;
     public static Transform GetTransform()
     {
         return p;
@@ -380,6 +382,7 @@ public class Player : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
             monedas = monedas + 1;
+            contador.text = monedas.ToString();
             Destroy(collision.gameObject);
         }
 
@@ -400,6 +403,7 @@ public class Player : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
             monedas = monedas + 1;
+            contador.text = monedas.ToString();
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("win"))
