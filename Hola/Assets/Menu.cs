@@ -36,4 +36,8 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("segundo");
     }
+    public void Tiro()
+    {
+        SceneManager.LoadScene("RelojNivel1");
+    }
 }
