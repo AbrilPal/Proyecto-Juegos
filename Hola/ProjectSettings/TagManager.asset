@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - power
+  - malo
+  - moneda
+  - New tag
+  - caer
+  - malo1
+  - malo3
+  - malo4
+  - win
+  - perder1
+  - malo5
+  - malo6
+  - malo7
+  - malo8
+  - malo9
+  - malo10
+  - malo11
+  - malo12
+  - malo13
+  - malo14
+  - malo15
+  - malo16
+  - malo17
+  - win1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
